@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Hospital Logo" class="logo">
+        <h1>Welcome to Our Hospital</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <img src="hospital.jpg" alt="Hospital Image" class="responsive">
+        <p>Welcome to our hospital. We provide the best healthcare services in the region.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="images/about.jpg" alt="About Us Image" class="responsive">
+        <p>Our hospital has been serving the community for over 50 years.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <img src="images/services.jpg" alt="Services Image" class="responsive">
+        <ul>
+            <li>Emergency Care</li>
+            <li>Outpatient Services</li>
+            <li>Inpatient Services</li>
+            <li>Pharmacy</li>
+            <li>Lab Services</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <img src="images/contact.jpg" alt="Contact Us Image" class="responsive">
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hospital. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
